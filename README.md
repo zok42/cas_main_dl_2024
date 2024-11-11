@@ -35,7 +35,7 @@ Official instructions to install Tensorflow: https://www.tensorflow.org/install/
 
 ## 3. Other packages
 
-	pip install notebook matplotlib pandas tqdm ipywidgets scikit-learn scikit-image
+	pip install wget notebook matplotlib pandas tqdm ipywidgets scikit-learn scikit-image
 	
 	
 For detailed installation instructions, see https://www.tensorflow.org/install/pip
@@ -49,7 +49,7 @@ https://colab.research.google.com/github/(YOUR_GITHUB_ID)/cas_main_dl_2024/blob/
 
 # Prepare Tensorflow with GPU on WSL2 (Windows Subsystem for Linux)
 
-For Windows, it is recommended to install and use Tensorflow within WSL2 (Windows Subsystem for Linux).
+For Windows (in particular when using a GPU), it is strongly recommended to install and use Tensorflow within WSL2 (Windows Subsystem for Linux). Without GPU (CPU only), you can still also use native Windows if you want.
 
 	
 Install WSL2, see https://docs.microsoft.com/windows/wsl/install
